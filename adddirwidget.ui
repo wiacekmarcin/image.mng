@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddDirWidget</class>
+ <widget class="QWidget" name="AddDirWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>406</width>
+    <height>217</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="5" column="0">
+    <widget class="QLabel" name="eFileNumber">
+     <property name="text">
+      <string>Ilość plików</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="etEnd">
+     <property name="text">
+      <string>Data zrobienia ostatniego zdjęcia</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLCDNumber" name="lcdExifNumber"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="eExifNuber">
+     <property name="text">
+      <string>Ilość plików z EXIF</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="lDirname">
+     <property name="text">
+      <string>Katalog</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLCDNumber" name="lcdFileNumber"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="eFotoNumber">
+     <property name="text">
+      <string>Ilość zdjęć</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QLabel" name="lBegin">
+     <property name="text">
+      <string>2014 10 10 14:35:20</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0" colspan="3">
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0" colspan="2">
+    <widget class="QLabel" name="etBegin">
+     <property name="text">
+      <string>Data zrobienia pierwszego zdęcia</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="2">
+    <widget class="QLabel" name="lEnd">
+     <property name="text">
+      <string>2014-11-11 15:56:10</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLCDNumber" name="lcdFotoNumber"/>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QProgressBar" name="progressBar">
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QLabel" name="lFileName">
+     <property name="text">
+      <string>Nazwa pliku</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLabel" name="lAllFilesNumber">
+     <property name="text">
+      <string>z 0</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
